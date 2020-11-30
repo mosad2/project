@@ -1,0 +1,138 @@
+/* default css start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 75%;
+  margin: 0 auto;
+}
+/* default css end */
+
+/* block-one css start */
+.background-color {
+  background-color: snow;
+}
+.block1 {
+  display: flex;
+}
+.back1 {
+  position: relative;
+  width: 50%;
+}
+.back1 i {
+  position: absolute;
+  top: 50vh;
+  color: rgba(200, 0, 0, 0.5);
+  font-size: 10vw;
+}
+.back1 h1 {
+  position: absolute;
+  top: 18vh;
+  color: orangered;
+  font-size: 2.5vw;
+}
+.back1 p {
+  position: absolute;
+  top: 30vh;
+  color: rgb(68, 68, 68);
+  font-size: 1.2vw;
+  line-height: 2.5vw;
+  text-align: justify;
+  padding-right: 60px;
+}
+
+.back2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url(../img/2.jpg.jpg);
+  background-position: center center;
+  background-size: cover;
+  width: 80%;
+  height: 80vh;
+  position: relative;
+}
+.back2 div {
+  text-align: center;
+  position: absolute;
+  bottom: 2vh;
+}
+.back2 div img {
+  max-width: 25%;
+  height: 28vh;
+  margin: 0 0.8vw;
+  border: 4px solid #fff;
+  transition: all 1s;
+}
+.back2 div img:hover {
+  transform: scale(1.2,1.1);
+}
+
+/* block-one css end */
+
+/* block-two css start */
+.margin-10 {
+  margin-bottom: 10vh;
+}
+.block2 .head {
+  text-align: center;
+  font-size: 3.5vw;
+  margin: 20vh 0vw;
+}
+.block2 .head h1 {
+  text-transform: capitalize;
+}
+.content {
+  display: flex;
+  text-transform: capitalize;
+}
+.content .info {
+  max-width: 30%;
+  margin: 0px 1.5vw;
+  background-color: rgb(240, 240, 240);
+  padding: 1.5vw 1.5vw 0vw 1.5vw;
+}
+.content .info h2 {
+  font-size: 1.5vw;
+  margin-bottom: 5vh;
+}
+.content .info img {
+  width: 100%;
+  max-width: 100%;
+  height: 28vh;
+  border-radius: 10px;
+  transition: all 1s;
+}
+.content .info img:hover{ 
+  transform: scale(1.1,1.1);
+}
+
+.content .info .person {
+  display: flex;
+  height: 13vh;
+}
+.content .info .person .image {
+  width: 20%;
+  height: 13vh;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: left;
+  align-items: center;
+}
+.content .info .person .image img {
+  width: 80%;
+  max-width: 80%;
+  height: auto;
+  border-radius: 50%;
+}
+.content .info .person .details {
+  width: 80%;
+  height: 13vh;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  color: grey;
+}
+/* block-two css end */
